@@ -12,4 +12,4 @@ jobs:
       - name: Run commands
         uses: matlab-actions/run-command@v1
         with:
-          command: out = hello_world, assert(~out)
+          command: out = hello_world, assert(out == 42);
