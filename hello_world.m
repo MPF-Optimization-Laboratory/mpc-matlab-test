@@ -1,4 +1,4 @@
 function out = hello_world
   disp('Hello, World!')
-  return false
+  return 42
  end
